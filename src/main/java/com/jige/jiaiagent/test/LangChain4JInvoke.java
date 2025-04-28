@@ -12,8 +12,11 @@ public class LangChain4JInvoke {
      * 调用 灵积 大模型的 文生图大模型
      * 参考文档
      * https://docs.langchain4j.dev/integrations/language-models/dashscope/
+     *
      * @param args
      */
+
+
     public static void main(String[] args) {
         WanxImageModel wanxImageModel = WanxImageModel.builder()
                 .modelName("wanx2.1-t2i-plus")
